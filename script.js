@@ -1,7 +1,9 @@
-let bt=document.getElementById('btn');
-bt.addEventListener('click',function(){
-    let p=document.getElementById('para');
-    p.textContent="Entered Metaverse";
-    p.style.fontSize="30px";
-    p.style.fontWeight="bold";
+// Select the button and paragraph elements
+const button = document.getElementById("enterBtn");
+const paragraph = document.getElementById("status");
+
+// Add an event listener to the button
+button.addEventListener("click", function () {
+    // Update the paragraph content and wrap it in an <h1> tag
+    paragraph.innerHTML = "<h1>Entered Metaverse</h1>";
 });
